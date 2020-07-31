@@ -3,9 +3,13 @@
 
 本项目所使用的linux系统版本为：Linux version 3.13.0-24-generic，32位；
 
+编程时需要ncurses.h 头文件，打开usr/include，若没有则打开终端输入命令来安装ncurses：`sudo apt-get install libncurses5-dev libncursesw5-dev`；
+
+使用gcc编译；
+
 运行结果仅为个人学习展示，可能并不理想。
 
-**编程思路**
+**编程思路：**
 
 1.确定屏幕的长宽xy，坐标轴顶点在左上角；
 
@@ -17,11 +21,11 @@
 
 [https://img-blog.csdnimg.cn/20190912162701315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dhbmdxaW5nY2h1YW45Mg==,size_16,color_FFFFFF,t_70](https://img-blog.csdnimg.cn/20190912162701315.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dhbmdxaW5nY2h1YW45Mg==,size_16,color_FFFFFF,t_70)
 
-编程时需要ncurses.h 头文件，打开usr/include，若没有则打开终端输入命令来安装ncurses：`sudo apt-get install libncurses5-dev libncursesw5-dev`
 
 **运行效果：**
 
 [https://img-blog.csdnimg.cn/2019091216243850.gif](https://img-blog.csdnimg.cn/2019091216243850.gif)
 
 **版本记录：**
+
 2019.9.12 初次提交 V1.0
