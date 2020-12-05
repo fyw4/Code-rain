@@ -29,3 +29,7 @@
 **版本记录：**
 
 2019.9.12 初次提交 V1.0
+
+**标星次数：**
+
+[![Stargazers over time](https://starchart.cc/fyw4/Code-rain.svg)](https://starchart.cc/fyw4/Code-rain)
